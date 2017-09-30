@@ -7,7 +7,7 @@ To run this program you must have the latest version of Unity installed on your 
 
 I may include a pre-built executable once the project is completed.
 
-If you'd like to play the game inside Unity, make sure your selected scene is "MainWorld" and then click the play button. Otherwise click the file button in the top left corner and click "Build&Run." This should compile the game for you and run it once finished.
+If you'd like to play the game inside Unity, make sure your selected scene is "Main" and then click the play button. Otherwise click the file button in the top left corner and click "Build&Run." This should compile the game for you and run it once finished.
 
 IMPORTANT: All assets provided are free assets given by Untiy, or found freely on the Unity asset store. ALSO: May be very unstable on older machines.
 
