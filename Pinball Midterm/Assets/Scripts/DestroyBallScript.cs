@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DestroyBallScriptAlt : MonoBehaviour {
+public class DestroyBallScript : MonoBehaviour {
 
 
     private void OnTriggerEnter(Collider other)

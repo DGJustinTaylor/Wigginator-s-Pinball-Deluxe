@@ -48,6 +48,11 @@ public class GameDataScript : MonoBehaviour {
 
             if(Input.GetKeyDown(KeyCode.Return))
             {
+
+                ButtonScript.drops = new List<ButtonScript>();
+                DropScript.drops = new List<DropScript>();
+
+                 score = 0;
                 SceneManager.LoadScene("Main");
             }
         }

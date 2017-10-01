@@ -2,17 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DropScript : MonoBehaviour
-{
+public class ButtonScript : MonoBehaviour {
 
     public float dropDist = 1f;
     public float resetDelay = 0.5f;
 
     public int chainID = 0;
-    public int singleScoreVal = 2000;
-    public int allScoreVal = 8000;
+    public int scoreVal = 10000;
 
-    public static List<DropScript> drops = new List<DropScript>();
+    public static List<ButtonScript> drops = new List<ButtonScript>();
 
     public bool isDropped = false;
 
@@ -25,14 +23,12 @@ public class DropScript : MonoBehaviour
     {
         if (!isDropped)
         {
-            transform.position += Vector3.down * dropDist;
+            transform.position += Vector3.left * dropDist;
             isDropped = true;
 
             bool resetDrops = true;
 
-            GameDataScript.score += singleScoreVal;
-
-            foreach (DropScript target in drops)
+            foreach (ButtonScript target in drops)
             {
                 if (target.chainID == chainID)
                 {
@@ -44,7 +40,7 @@ public class DropScript : MonoBehaviour
             }
             if (resetDrops)
             {
-                GameDataScript.score += allScoreVal;
+                GameDataScript.score += scoreVal;
 
                 Invoke("ResetDrops", resetDelay);
             }
@@ -53,15 +49,13 @@ public class DropScript : MonoBehaviour
 
     void ResetDrops()
     {
-        foreach (DropScript target in drops)
+        foreach (ButtonScript target in drops)
         {
             if (target.chainID == chainID)
             {
-                target.transform.position += Vector3.up * dropDist;
+                target.transform.position += Vector3.right * dropDist;
                 target.isDropped = false;
             }
         }
     }
 }
-
-
