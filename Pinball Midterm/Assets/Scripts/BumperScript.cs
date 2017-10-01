@@ -7,6 +7,8 @@ public class BumperScript : MonoBehaviour {
     public float force = 2000f;
     public float forceRadius = 1f;
 
+    public int scoreVal = 1000;
+
     private void OnCollisionEnter()
     {
         Vector3 explosionPos = transform.position;
@@ -22,6 +24,9 @@ public class BumperScript : MonoBehaviour {
             }
 
         }
+
+        GameDataScript.score += scoreVal;
+
     }
 
 }
