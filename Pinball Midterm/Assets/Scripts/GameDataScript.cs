@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameDataScript : MonoBehaviour {
 
@@ -20,11 +21,6 @@ public class GameDataScript : MonoBehaviour {
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-
-        }
-
         if (lives < 0)
         {
             lifeDisplay.text = "GAME OVER!!!";

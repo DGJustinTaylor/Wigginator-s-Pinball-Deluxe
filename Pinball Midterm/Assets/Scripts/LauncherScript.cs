@@ -9,7 +9,6 @@ public class LauncherScript : MonoBehaviour {
 
     private List<Rigidbody> ballList = new List<Rigidbody>();
 
-	// Update is called once per frame
 	void Update ()
     {
 		if(Input.GetButtonDown(buttonName))

@@ -18,7 +18,6 @@ public class FlipperScript : MonoBehaviour {
         rb = GetComponent<Rigidbody>();
     }
 
-    // Update is called once per frame
     void Update ()
     {
         if (Input.GetButton(buttonName))

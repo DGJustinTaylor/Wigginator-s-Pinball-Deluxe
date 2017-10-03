@@ -310,7 +310,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -637838479
+  randomSeed: -1393841565
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -3742,7 +3742,7 @@ RectTransform:
   - {fileID: 669378530}
   - {fileID: 1746209078}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -4152,7 +4152,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1402021677
 GameObject:
@@ -4553,6 +4553,7 @@ MonoBehaviour:
   quitMenu: {fileID: 720942669}
   startButton: {fileID: 927697730}
   exitButton: {fileID: 954498503}
+  levelToLoad: 1
 --- !u!1 &1746209077
 GameObject:
   m_ObjectHideFlags: 0

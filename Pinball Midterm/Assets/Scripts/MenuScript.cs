@@ -7,11 +7,14 @@ using UnityEngine.SceneManagement;
 public class MenuScript : MonoBehaviour {
 
     public Canvas quitMenu;
+
     public Button startButton;
     public Button exitButton;
 
-	// Use this for initialization
-	void Start () {
+    public int levelToLoad = 0;
+
+	void Start ()
+    {
 
         quitMenu = quitMenu.GetComponent<Canvas>();
 
@@ -19,11 +22,6 @@ public class MenuScript : MonoBehaviour {
         exitButton = exitButton.GetComponent<Button>();
 
         quitMenu.enabled = false;
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
 		
 	}
 
@@ -45,7 +43,7 @@ public class MenuScript : MonoBehaviour {
 
     public void StartGame()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(levelToLoad);
     }
 
     public void ExitGame()
