@@ -9,13 +9,22 @@ public class LauncherScript : MonoBehaviour {
 
     private List<Rigidbody> ballList = new List<Rigidbody>();
 
-	void Update ()
+    private AudioSource audio;
+
+    private void Start()
+    {
+        audio = GetComponent<AudioSource>();
+    }
+
+    void Update ()
     {
 		if(Input.GetButtonDown(buttonName))
         {
             foreach(Rigidbody ball in ballList)
             {
                 ball.AddForce(Vector3.forward * launchForce);
+
+                audio.Play();
             }
         }
 	}

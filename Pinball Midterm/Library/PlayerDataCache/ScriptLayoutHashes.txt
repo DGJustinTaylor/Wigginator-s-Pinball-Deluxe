@@ -136,7 +136,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.Spa
 b4bec3e97dda7a2d83077e97558f9ab9 Assembly-CSharp.dll:.BumperScript
 42145c429fb7efbe6c9716a67f7e6e0b Assembly-CSharp.dll:.LauncherScript
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.FirstSaveScript
+e56b9ea6ac8a13465acb03c6a46c0f55 Assembly-CSharp.dll:.EscapeMenuScript
 bc39d6395f516b9f33ebd153e163e369 Assembly-CSharp.dll:.GameDataScript
 ab232dc3d94359ca42eabb9c72cbbb82 Assembly-CSharp.dll:.FlipperBumperScript
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.DestroyBallScript
-e56b9ea6ac8a13465acb03c6a46c0f55 Assembly-CSharp.dll:.EscapeMenuScript

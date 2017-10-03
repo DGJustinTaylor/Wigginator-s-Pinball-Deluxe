@@ -12,10 +12,16 @@ public class FlipperScript : MonoBehaviour {
     public string buttonName = "LeftPaddle";
 
     private Rigidbody rb;
+    private AudioSource audio;
+
+    private bool audioPlayed;
 
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
+        audio = GetComponent<AudioSource>();
+
+        audioPlayed = false;
     }
 
     void Update ()
@@ -23,9 +29,16 @@ public class FlipperScript : MonoBehaviour {
         if (Input.GetButton(buttonName))
         {
             rb.AddForceAtPosition(forceDirection.normalized * force, transform.position + offset);
+
+            if(!audioPlayed)
+            {
+                audio.Play();
+                audioPlayed = true;
+            }
         }
         else
         {
+            audioPlayed = false;
             rb.AddForceAtPosition(forceDirection.normalized * -force, transform.position + offset);
         }
 	}

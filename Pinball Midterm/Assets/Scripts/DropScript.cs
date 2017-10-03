@@ -12,6 +12,8 @@ public class DropScript : MonoBehaviour
     public int singleScoreVal = 2000;
     public int allScoreVal = 8000;
 
+    private AudioSource audio;
+
     public static List<DropScript> drops = new List<DropScript>();
 
     public bool isDropped = false;
@@ -19,6 +21,8 @@ public class DropScript : MonoBehaviour
     private void Start()
     {
         drops.Add(this);
+
+        audio = GetComponent<AudioSource>();
     }
 
     private void OnCollisionEnter()
@@ -27,6 +31,8 @@ public class DropScript : MonoBehaviour
         {
             transform.position += Vector3.down * dropDist;
             isDropped = true;
+
+            audio.Play();
 
             bool resetDrops = true;
 

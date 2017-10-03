@@ -43,6 +43,11 @@ public class MenuScript : MonoBehaviour {
 
     public void StartGame()
     {
+        ButtonScript.drops = new List<ButtonScript>();
+        DropScript.drops = new List<DropScript>();
+
+        GameDataScript.score = 0;
+
         SceneManager.LoadScene(levelToLoad);
     }
 

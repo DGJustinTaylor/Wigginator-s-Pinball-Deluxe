@@ -9,10 +9,19 @@ public class BumperScript : MonoBehaviour {
 
     public int scoreVal = 1000;
 
+    private AudioSource audio;
+
+    private void Start()
+    {
+        audio = GetComponent<AudioSource>();
+    }
+
     private void OnCollisionEnter()
     {
         Vector3 explosionPos = transform.position;
         Collider[] colliders = Physics.OverlapSphere(explosionPos, forceRadius);
+
+        audio.Play();
 
         foreach (Collider hit in colliders)
         {
