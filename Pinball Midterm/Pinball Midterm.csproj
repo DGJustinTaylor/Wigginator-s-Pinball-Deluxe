@@ -93,6 +93,7 @@
     <Compile Include="Assets\Scripts\FlipperScript.cs" />
     <Compile Include="Assets\Scripts\GameDataScript.cs" />
     <Compile Include="Assets\Scripts\LauncherScript.cs" />
+    <Compile Include="Assets\Scripts\MenuScript.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
