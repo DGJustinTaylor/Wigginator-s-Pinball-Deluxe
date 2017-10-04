@@ -19,7 +19,7 @@ public class GameDataScript : MonoBehaviour {
 
     private AudioSource audio;
 
-    private bool isGameOver = false;
+    public static bool isGameOver = false;
 
     private void Start()
     {
@@ -64,9 +64,12 @@ public class GameDataScript : MonoBehaviour {
             if (Input.GetKeyDown(KeyCode.Return))
             {
 
+                isGameOver = false;
+
                 ButtonScript.drops = new List<ButtonScript>();
                 DropScript.drops = new List<DropScript>();
 
+                lives = 3;
                 score = 0;
                 SceneManager.LoadScene("Main");
             }
@@ -103,6 +106,7 @@ public class GameDataScript : MonoBehaviour {
         ButtonScript.drops = new List<ButtonScript>();
         DropScript.drops = new List<DropScript>();
 
+        lives = 3;
         score = 0;
 
         SceneManager.LoadScene("Main");
