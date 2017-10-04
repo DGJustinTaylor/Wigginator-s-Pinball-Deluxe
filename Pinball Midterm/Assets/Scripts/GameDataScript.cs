@@ -17,11 +17,15 @@ public class GameDataScript : MonoBehaviour {
     public TextMesh scoreDisplay;
     public TextMesh lifeDisplay;
 
+    private AudioSource audio;
+
     private bool isGameOver = false;
 
     private void Start()
     {
         Time.timeScale = 1;
+
+        audio = GetComponent<AudioSource>();
     }
 
     private void Update()
@@ -36,6 +40,11 @@ public class GameDataScript : MonoBehaviour {
         {
             lives--;
             Instantiate(ball, spawnPos.position, ball.transform.rotation);
+
+            if (lives == 1 || lives == 0)
+            {
+                audio.Play();
+            }
 
             if (lifeDisplay)
             {

@@ -89,7 +89,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 492}
   m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 75
+  controlID: 21
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -133,7 +133,7 @@ MonoBehaviour:
   m_MinSize: {x: 436, y: 492}
   m_MaxSize: {x: 14006, y: 14042}
   vertical: 1
-  controlID: 10
+  controlID: 35
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -152,8 +152,8 @@ MonoBehaviour:
     y: 0
     width: 589
     height: 1307
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 277, y: 71}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 12}
@@ -177,8 +177,8 @@ MonoBehaviour:
     y: 0
     width: 1971
     height: 931
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -208,7 +208,7 @@ MonoBehaviour:
   m_MinSize: {x: 436, y: 271}
   m_MaxSize: {x: 14006, y: 10021}
   vertical: 0
-  controlID: 90
+  controlID: 60
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -330,34 +330,34 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Materials
+    - Assets/Audio
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Materials
+  - Assets/Audio
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\boyfr\Documents\GitHub\Wigginator-s-Pinball-Deluxe\Pinball
     Midterm
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 3e260000
-    m_LastClickedID: 9790
-    m_ExpandedIDs: 000000001e2600003e26000000ca9a3bffffff7f
+    m_SelectedIDs: 30260000
+    m_LastClickedID: 9776
+    m_ExpandedIDs: 000000001e2600004a26000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Fonts
-      m_OriginalName: Fonts
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 9802
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 11}
     m_SearchString: 
@@ -371,7 +371,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000001e2600003e260000
+    m_ExpandedIDs: 000000001e2600004a260000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -529,14 +529,14 @@ MonoBehaviour:
     width: 1969
     height: 910
   m_SceneLighting: 1
-  lastFramingTime: 1363.5913559975484
+  lastFramingTime: 2686.0343135071366
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 20.455683, y: -15.749498, z: 15.622469}
+    m_Target: {x: -2.0133662, y: 4.0001364, z: -3.797906}
     speed: 2
-    m_Value: {x: 20.455683, y: -15.749498, z: 15.622469}
+    m_Value: {x: -2.0133662, y: 4.0001364, z: -3.797906}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -559,13 +559,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.23406452, y: -0.39860913, z: 0.10597305, w: -0.8803944}
+    m_Target: {x: 0.44754738, y: -0.06504604, z: 0.032664247, w: 0.8912931}
     speed: 2
-    m_Value: {x: -0.23406452, y: -0.39860913, z: 0.10597305, w: -0.8803944}
+    m_Value: {x: 0.44754738, y: -0.06504604, z: 0.032664247, w: 0.8912931}
   m_Size:
-    m_Target: 44.047348
+    m_Target: 15.221228
     speed: 2
-    m_Value: 44.047348
+    m_Value: 15.221228
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -606,26 +606,26 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: a4f4f9ff62f5f9ff7af6f9ff80f6f9ff7403faff3004faff4805faff4e05faffe217faff9e18faffb619faffbc19faff5432faff1033faff2834faff2e34faff8445faff4246faff5a47faff6047faff884cfaff444dfaff5c4efaff624efaffc0c3faff7cc4faff94c5faff9ac5faff06d5faffc4d5faffdcd6faffe2d6faff16f3faffd2f3faffeaf4fafff0f4faff500cfbff0c0dfbff240efbff2a0efbff8434fbff4035fbff5836fbff5e36fbff9e8dfbffc88efbff4ab2ffff1afcffff000000001e3b0000ba3b0000463c0000
+    m_ExpandedIDs: cc40fcff3442fcff682efdff1836fdffec7ffeff8885ffff0abeffff7cceffff1afcffff00000000a22c0000382d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Music_Player
+      m_OriginalName: Music_Player
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 51918
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 10}
     m_SearchString: 
   m_ExpandedScenes:
-  - MainMenu
+  - Main
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
