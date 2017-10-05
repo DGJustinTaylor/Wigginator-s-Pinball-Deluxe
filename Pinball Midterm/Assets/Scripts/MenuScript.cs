@@ -22,6 +22,8 @@ public class MenuScript : MonoBehaviour {
         exitButton = exitButton.GetComponent<Button>();
 
         quitMenu.enabled = false;
+
+        Time.timeScale = 1;
 	}
 
     public void ExitPressed()
