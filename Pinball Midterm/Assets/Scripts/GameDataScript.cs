@@ -17,7 +17,11 @@ public class GameDataScript : MonoBehaviour {
     public TextMesh scoreDisplay;
     public TextMesh lifeDisplay;
 
-    private AudioSource audio;
+    public AudioSource[] sounds;
+    public AudioSource audio1;
+    public AudioSource audio2;
+
+    public int audioCount = 0;
 
     public static bool isGameOver = false;
 
@@ -25,7 +29,11 @@ public class GameDataScript : MonoBehaviour {
     {
         Time.timeScale = 1;
 
-        audio = GetComponent<AudioSource>();
+        sounds = GetComponents<AudioSource>();
+        audio1 = sounds[0];
+        audio2 = sounds[1];
+
+
     }
 
     private void Update()
@@ -43,7 +51,7 @@ public class GameDataScript : MonoBehaviour {
 
             if (lives == 1 || lives == 0)
             {
-                audio.Play();
+                audio1.Play();
             }
 
             if (lifeDisplay)
@@ -57,8 +65,14 @@ public class GameDataScript : MonoBehaviour {
             scoreDisplay.text = "SCORE: " + score.ToString();
         }
 
-        if(isGameOver)
+        if (isGameOver)
         {
+            if (audioCount == 0 && !audio2.isPlaying)
+            {
+                audio2.Play();
+                audioCount++;
+            }
+
             Destroy(GameObject.FindGameObjectWithTag("Ball"));
 
             if (Input.GetKeyDown(KeyCode.Return))

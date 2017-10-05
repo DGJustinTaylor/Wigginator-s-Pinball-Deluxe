@@ -7,5 +7,7 @@ public class DestroyBallScript : MonoBehaviour {
     private void OnTriggerEnter(Collider other)
     {
         Destroy(other.gameObject);
+
+        GameDataScript.score += 6000;
     }
 }
