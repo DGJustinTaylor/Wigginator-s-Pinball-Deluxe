@@ -20,6 +20,7 @@ public class GameDataScript : MonoBehaviour {
     public AudioSource[] sounds;
     public AudioSource audio1;
     public AudioSource audio2;
+    public AudioSource audio3;
 
     public int audioCount = 0;
 
@@ -32,6 +33,7 @@ public class GameDataScript : MonoBehaviour {
         sounds = GetComponents<AudioSource>();
         audio1 = sounds[0];
         audio2 = sounds[1];
+        audio3 = sounds[2];
 
 
     }
@@ -77,6 +79,10 @@ public class GameDataScript : MonoBehaviour {
             {
                 HighScoreScript.highScore = score;
                 PlayerPrefs.SetInt("High Score", HighScoreScript.highScore);
+
+                audio2.Stop();
+                audio3.Play();
+
             }
 
             Destroy(GameObject.FindGameObjectWithTag("Ball"));

@@ -5,13 +5,15 @@ using UnityEngine.UI;
 
 public class HighScoreScript : MonoBehaviour {
 
-    public static int highScore = 387500;
+    public static int highScore = 0;
 
     Text highScoreDisplay;
 
 	void Start ()
     {
         highScoreDisplay = GetComponent<Text>();
+
+        //PlayerPrefs.SetInt("High Score", 0);
 
         if (PlayerPrefs.GetInt("High Score") > highScore)
         {
