@@ -73,6 +73,12 @@ public class GameDataScript : MonoBehaviour {
                 audioCount++;
             }
 
+            if (score > HighScoreScript.highScore)
+            {
+                HighScoreScript.highScore = score;
+                PlayerPrefs.SetInt("High Score", HighScoreScript.highScore);
+            }
+
             Destroy(GameObject.FindGameObjectWithTag("Ball"));
 
             if (Input.GetKeyDown(KeyCode.Return))
