@@ -86,8 +86,8 @@ MonoBehaviour:
     y: 30
     width: 2560
     height: 1307
-  m_MinSize: {x: 709, y: 492}
-  m_MaxSize: {x: 18004, y: 14042}
+  m_MinSize: {x: 711, y: 492}
+  m_MaxSize: {x: 18006, y: 14042}
   vertical: 0
   controlID: 113
 --- !u!114 &5
@@ -152,8 +152,8 @@ MonoBehaviour:
     y: 0
     width: 589
     height: 1307
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 277, y: 71}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -357,19 +357,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Scripts
+    - Assets/Fonts
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Fonts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\boyfr\Documents\GitHub\Wigginator-s-Pinball-Deluxe\Pinball
     Midterm
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 2e260000
-    m_LastClickedID: 9774
+    m_SelectedIDs: 6c260000
+    m_LastClickedID: 9836
     m_ExpandedIDs: 000000002026000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -561,9 +561,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -1.6491011, y: -21.608515, z: 14.841677}
+    m_Target: {x: 2.1639729, y: -10.596354, z: 23.134466}
     speed: 2
-    m_Value: {x: -1.6491011, y: -21.608515, z: 14.841677}
+    m_Value: {x: 2.1639729, y: -10.596354, z: 23.134466}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -586,9 +586,9 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.4025246, y: -0.02298176, z: 0.010114383, w: 0.9150648}
+    m_Target: {x: -0.23211728, y: -0.035386436, z: 0.008445626, w: -0.9720073}
     speed: 2
-    m_Value: {x: 0.4025246, y: -0.02298176, z: 0.010114383, w: 0.9150648}
+    m_Value: {x: -0.23211728, y: -0.035386436, z: 0.008445626, w: -0.9720073}
   m_Size:
     m_Target: 38.598545
     speed: 2
@@ -633,7 +633,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 6a80ffff3c81ffff6082ffff6882ffffc2a3ffff7ab9ffff64e9ffffbef3ffff1afcffff00000000
+    m_ExpandedIDs: b476ffff6e77ffff8e78ffff9278fffff290ffff1afcffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

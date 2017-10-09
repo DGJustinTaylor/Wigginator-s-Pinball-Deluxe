@@ -25,6 +25,7 @@ public class GameDataScript : MonoBehaviour {
     public int audioCount = 0;
 
     public static bool isGameOver = false;
+    private bool showHigh = false;
 
     private void Start()
     {
@@ -83,6 +84,7 @@ public class GameDataScript : MonoBehaviour {
                 audio2.Stop();
                 audio3.Play();
 
+                showHigh = true;
             }
 
             Destroy(GameObject.FindGameObjectWithTag("Ball"));
@@ -106,14 +108,27 @@ public class GameDataScript : MonoBehaviour {
     {
         if (isGameOver)
         {
-            string message;
+            string replay;
+            string toMenu;
 
-            message = "Click to play again";
+            replay = "Click to play again";
+            toMenu = "Return to Menu";
 
             Rect startButton = new Rect(Screen.width / 2 - 70, Screen.height / 3 - 100, 140, 30);
-            if (GUI.Button(startButton, message))
+            if (GUI.Button(startButton, replay))
             {
                 StartGame();
+            }
+            Rect menuButton = new Rect(Screen.width / 2 - 70, Screen.height / 3 - 70, 140, 30);
+            if (GUI.Button(menuButton, toMenu))
+            {
+                SceneManager.LoadScene(0);
+            }
+
+            if (showHigh)
+            {
+                Rect highScore = new Rect(Screen.width / 2 - 100, Screen.height / 2 - 150, 200, 25);
+                GUI.Box(highScore, "NEW HIGHSCORE!");
             }
 
             Rect rect = new Rect(Screen.width / 2 - 100, Screen.height / 2 - 125, 200, 25);
