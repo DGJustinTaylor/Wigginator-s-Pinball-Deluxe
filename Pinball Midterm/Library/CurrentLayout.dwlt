@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 542}
+  m_MinSize: {x: 950, y: 521}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -43,7 +43,7 @@ MonoBehaviour:
     y: 0
     width: 2560
     height: 1357
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 521}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -86,8 +86,8 @@ MonoBehaviour:
     y: 30
     width: 2560
     height: 1307
-  m_MinSize: {x: 711, y: 492}
-  m_MaxSize: {x: 18006, y: 14042}
+  m_MinSize: {x: 711, y: 471}
+  m_MaxSize: {x: 18006, y: 14021}
   vertical: 0
   controlID: 113
 --- !u!114 &5
@@ -130,8 +130,8 @@ MonoBehaviour:
     y: 0
     width: 1971
     height: 1307
-  m_MinSize: {x: 434, y: 492}
-  m_MaxSize: {x: 14004, y: 14042}
+  m_MinSize: {x: 434, y: 471}
+  m_MaxSize: {x: 14004, y: 14021}
   vertical: 1
   controlID: 10
 --- !u!114 &7
@@ -357,19 +357,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Fonts
+    - Assets/Scenes
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Fonts
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\boyfr\Documents\GitHub\Wigginator-s-Pinball-Deluxe\Pinball
     Midterm
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 6c260000
-    m_LastClickedID: 9836
+    m_SelectedIDs: 4c260000
+    m_LastClickedID: 9804
     m_ExpandedIDs: 000000002026000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -556,14 +556,14 @@ MonoBehaviour:
     width: 1969
     height: 824
   m_SceneLighting: 1
-  lastFramingTime: 204.180113315782
+  lastFramingTime: 45.03065091138653
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 2.1639729, y: -10.596354, z: 23.134466}
+    m_Target: {x: -0.67101777, y: -4.672942, z: 10.580067}
     speed: 2
-    m_Value: {x: 2.1639729, y: -10.596354, z: 23.134466}
+    m_Value: {x: -0.67101777, y: -4.672942, z: 10.580067}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -586,13 +586,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.23211728, y: -0.035386436, z: 0.008445626, w: -0.9720073}
+    m_Target: {x: -0.38052127, y: 0.014897012, z: -0.006135532, w: -0.9246318}
     speed: 2
-    m_Value: {x: -0.23211728, y: -0.035386436, z: 0.008445626, w: -0.9720073}
+    m_Value: {x: -0.38052124, y: 0.014897011, z: -0.006135532, w: -0.9246317}
   m_Size:
-    m_Target: 38.598545
+    m_Target: 22
     speed: 2
-    m_Value: 38.598545
+    m_Value: 22
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -633,7 +633,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: b476ffff6e77ffff8e78ffff9278fffff290ffff1afcffff00000000
+    m_ExpandedIDs: 1cf8ffffd2f8ffff00faffff04faffff1afcffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
