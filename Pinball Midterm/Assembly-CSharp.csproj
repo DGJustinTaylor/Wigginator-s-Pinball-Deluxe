@@ -60,6 +60,7 @@
      <Compile Include="Assets\Scripts\FlipperBumperScript.cs" />
      <Compile Include="Assets\Scripts\FlipperScript.cs" />
      <Compile Include="Assets\Scripts\GameDataScript.cs" />
+     <Compile Include="Assets\Scripts\HighScoreScript.cs" />
      <Compile Include="Assets\Scripts\LauncherScript.cs" />
      <Compile Include="Assets\Scripts\MenuScript.cs" />
  <Reference Include="UnityEngine.UI">
